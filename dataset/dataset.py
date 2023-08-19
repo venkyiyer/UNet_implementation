@@ -12,5 +12,5 @@ class UNet_dataset(Dataset):
 
     
     def __getitem__(self, index):
-        image = Image.open(os.path.join(self.image_dir, self.))
+        image = Image.open(os.path.join(self.image_dir))
         
